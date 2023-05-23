@@ -1,0 +1,54 @@
+body
+{
+    margin: auto;
+    background-color: #F6E5DC;
+    font-family: "Verdana";
+}
+.banner
+{
+    background-color: #2F180C;
+    text-align: center;
+    color: khaki;
+    height: 60px;
+    font-weight: bold;
+}
+.upper-panel{
+    width: 100%;
+}
+.image{
+    height: 350px;
+}
+.picture
+{
+    float: left;
+    width: 60%;
+    padding: 30px;
+}
+.list{
+    text-align: left;
+}
+.food
+{
+    float: right;
+    text-align: left;
+    height: 350px;
+    padding: 70px;
+    font-size: 150%;
+}
+.footer{
+    background-color: #2F180C;
+    height: 60px;
+}
+.reservation{
+    background-color: #D0B6A8;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+.my-button{
+    background-color: #2F180C;
+    color: khaki;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+}
