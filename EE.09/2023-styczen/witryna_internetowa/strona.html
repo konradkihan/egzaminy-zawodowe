@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="pl">
+        <link rel="stylesheet" href="styl.css">
+        <title>Sekretariat</title>
+    </head>
+    <content>
+        <div class="panels">
+            <div class="left">
+                <h1>
+                    Akta pracownicze
+                </h1>
+                <?php skrypt1() ?>
+                <hr>
+                <h3>Dokumenty pracownika</h3>
+                    <a href="cv.txt">Pobierz</a>
+                <h1>
+                    Liczba zatrudnionych pracowników
+                </h1>
+                <p>
+                    <?php skrypt2() ?>
+                </p>
+            </div>
+            <div class="right">
+                <?php skrypt3() ?>
+            </div>
+        </div>
+        <div class="footer">
+            Autorem aplikacji jest: 000000000
+            <ul>
+                <li>Skontaktuj się</li>
+                <li>Poznaj naszą firmę</li>
+            </ul>
+        </div>
+    </content>
+</html>

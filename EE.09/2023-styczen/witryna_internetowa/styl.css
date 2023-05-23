@@ -1,0 +1,40 @@
+body{
+    font-family: "Helvetica";
+    background-color: #DDD;
+    color: #546E7A;
+}
+h1{
+    background-color: #5C6BC0;
+    color: white;
+    padding: 10px;
+    font-weight: 300;
+}
+h3, p{
+    padding-left: 30px;
+}
+h2{
+    text-align: center;
+}
+.left, .right{
+    background-color: white;
+    height: 600px;
+    margin: 20px;
+    box-shadow: 0 0 20px gray;
+    float: left;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 30%;
+    text-align: center;
+}
+.footer{
+    clear: both;
+    background-color: #5C6BC0;
+    color: white;
+    padding: 30px;
+}
+.image{
+    width: 400px;
+}
