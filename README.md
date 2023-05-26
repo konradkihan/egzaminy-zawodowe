@@ -50,5 +50,5 @@ Lista ta będzie systematycznie uzupełniana o nowe egzaminy zawodowe.
 Ponadto materiały w folderze `materiały dodatkowe` znajdują się skrótowe przypomnienia dotyczące SQL, PHP, JS i HTML.
 
 <hr>
-<i> UWAGA: Jest to nieoficjalne repozytorium gotowych egzaminów zawodowych. Nie ma gwarancji pełnej poprawności rozwiązań. Jeśli chcesz pomóc w rozwoju repozytorium, masz uwagi lub zauważyłeś(aś) błędy w rozwiązaniach - <a href="https://github.com/konradkihan/egzaminy-zawodowe/pulls"> wyślij Pull Request </a>.
+<i> UWAGA: Jest to nieoficjalne repozytorium gotowych egzaminów zawodowych. Nie ma gwarancji pełnej poprawności rozwiązań. Jeśli chcesz pomóc w rozwoju repozytorium, masz uwagi lub zauważyłeś(aś) błędy w rozwiązaniach - <a href="https://github.com/konradkihan/egzaminy-zawodowe/pulls"> wyślij Pull Request </a> lub <a href="https://github.com/konradkihan/egzaminy-zawodowe/issues"> zgłoś issue </a>.
 </i>
