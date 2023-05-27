@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="pl">
+        <title>Pomocnik CSS</title>
+        <link rel="stylesheet" href="styl2.css">
+    </head>
+    <body>
+        <header>
+            <div class="lewy">
+                <h1>Pomocnik CSS</h1>
+            </div>
+            <div class="prawy">
+                <ul>
+                    <li><a href="kolory.html">Kolory</a></li>
+                    <li><a href="czcionki.html">Czcionki</a></li>
+                    <li><a href="style.html">Style</a></li>
+                    <li><a href="https://www.w3schools.com/css/" target="_blank">Pomoc</a></li>
+                </ul>
+            </div>
+        </header>
+        <content >
+            <h2>Podaj składową H w kodzie HSL</h2>
+        
+            <p>0 do 30 to czerwienie, do 60 żółcie, do 150 zielone, do 250 niebieskie, do 360 fiolet i purpura</p>
+            <img src="kolory.jpg" alt="Przestrzeń barw HSL">
+            <p>
+                <input type="number" id="input-number" min="0" max="360" placeholder="0-360">
+                <button onclick="myscript()">Generuj paletę</button>
+            </p>
+            <table>
+                <tr id="kolor1">
+                    <th colspan="4">
+                        Kolor główny
+                    </th>
+                </tr>
+                <tr>
+                    <td id="kolor2">Kolor 2</td>
+                    <td id="kolor3">Kolor 3</td>
+                    <td id="kolor4">Kolor 4</td>
+                    <td id="kolor5">Kolor 5</td>
+                </tr>
+            </table>
+        </content>
+        <footer>
+            Autor: 00000000000
+        </footer>
+    </body>
+    <script>
+        function myscript(){
+            dane = document.getElementById("input-number").value;
+            document.getElementById("kolor1").style.backgroundColor = `hsl(${dane},100%,50%)`;
+            document.getElementById("kolor2").style.backgroundColor = `hsl(${dane},80%,50%)`;
+            document.getElementById("kolor3").style.backgroundColor = `hsl(${dane},60%,50%)`;
+            document.getElementById("kolor4").style.backgroundColor = `hsl(${dane},40%,50%)`;
+            document.getElementById("kolor5").style.backgroundColor = `hsl(${dane},20%,50%)`;           
+        }
+    </script>
+</html>

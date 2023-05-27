@@ -14,7 +14,7 @@ Lista ta będzie systematycznie uzupełniana o nowe egzaminy zawodowe.
 - [ ] Styczeń 2021
 - [ ] Czerwiec 2021
 - [ ] Styczeń 2022
-- [ ] Czerwiec 2022
+- [x] Czerwiec 2022 (JS)
 - [x] Styczeń 2023 (PHP) 
 
 <hr>
