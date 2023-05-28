@@ -40,6 +40,7 @@ function skrypt2(){
     $result = mysqli_query($connection, $query);
     $response = mysqli_fetch_row($result);
     echo($response[0]);
+    mysqli_close($connection);
 }
 
 function skrypt3(){
@@ -59,6 +60,7 @@ function skrypt3(){
         <h4>$response2[1]</h4>
         <h5>$response2[2]</h5>
     ");
+    mysqli_close($connection);
 }
 
 ?>
